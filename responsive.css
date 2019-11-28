@@ -1,14 +1,14 @@
 @media (max-width: 1080px) {
 
 .container {
+    width: 700px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 .side {
-    width: 250px;
+    width: 180px;
     max-width: 100%;
-    padding-left: 15px;
 }
 
 .category {
@@ -18,8 +18,9 @@
 }
     
 .left {
+    width: 450px;
     max-width: 100%;
-    width: 500px;
+    max-width: 100%;
     margin: 0 auto;
 }
         
@@ -32,9 +33,10 @@
     max-width: 100%;
     width: 180px;
 }
-    
+
 footer {
     margin-top: 100px;
+}
 
         
 }
@@ -165,4 +167,5 @@ footer {
 }
  
 }
+
 
