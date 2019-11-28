@@ -1,5 +1,5 @@
 body {
-    font-family: "游ゴシック";
+    font-family:"游ゴシック体 Medium";
 }
 
 * {
@@ -67,6 +67,7 @@ li {
     padding-bottom: 9px;
     margin-bottom: 10px;
     font-weight: bold; 
+    line-height: 1;
 }
 
 .about-contentsA {
@@ -83,6 +84,7 @@ li {
 
 .about-ex {
     padding-top: 30px;
+    font-size: 16px;
 }
 
 .side img {
@@ -101,8 +103,12 @@ li {
 .side-li {
     font-size: 16px;
     padding-bottom: 15px;
-    padding-top: 20px;
     font-weight: bold;
+}
+
+.category {
+    margin-bottom: 30px;
+    padding-top: 10px;
 }
 
 .news-date {
@@ -114,8 +120,6 @@ li {
 
 .news-date p {
     max-width: 555px;
-    margin-block-start: 0;
-    margin-block-end: 0;
 }
 
 .date {
@@ -138,8 +142,9 @@ li {
     color: #1F91BE;
     padding: 7px 34px;
     border: 2px solid #1F91BE;
-    margin-top: 28px;
+    margin-top: 20px;
     display: inline-block;
+    line-height: 1;
 }
 
 footer {
@@ -169,7 +174,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
+/*footer,*/ header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
     padding:0;
@@ -178,10 +183,6 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     /*background:transparent;*/
-}
-
-body {
-    line-height:1;
 }
 
 article,aside,details,figcaption,figure,
@@ -193,6 +194,10 @@ nav ul {
     list-style:none;
 }
 
+body {
+    /*line-height: 1;*/
+}
+
 blockquote, q {
     quotes:none;
 }
@@ -201,6 +206,11 @@ blockquote:before, blockquote:after,
 q:before, q:after {
     content:'';
     content:none;
+}
+
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 a {
@@ -253,4 +263,14 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption,/* footer*/, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    font-size: 100%;  
+    font: inherit;  
+    vertical-align: baseline; 
+ }
+
 
