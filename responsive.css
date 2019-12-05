@@ -20,8 +20,6 @@
 .left {
     width: 450px;
     max-width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
 }
         
 .about-contentsB {
@@ -104,6 +102,10 @@ footer {
     padding: 20px 0;
 }
 
+.left {
+    margin: 0 auto;
+}
+
 .left img {
     max-width: 100%;
 }
@@ -167,5 +169,6 @@ footer {
 }
  
 }
+
 
 
